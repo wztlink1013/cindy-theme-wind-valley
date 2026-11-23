@@ -1,0 +1,16 @@
+風之谷 · Wind Valley — artwork (wallpapers, app icon, wordmark)
+
+Copyright (c) 2026 wztlink1013
+
+Licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). You may share and adapt the artwork, including commercially,
+as long as you give appropriate credit.
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Bundled fonts are NOT covered by this license:
+  assets/serif-lora.ttf       Lora              SIL Open Font License 1.1
+  assets/mono-jetbrains.ttf   JetBrains Mono    SIL Open Font License 1.1
+See licenses/ for the full font licenses.
+
+Theme color/threshold data in themes/*.json is released under the same CC BY 4.0 terms.

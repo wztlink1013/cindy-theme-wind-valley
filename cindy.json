@@ -1,0 +1,15 @@
+{
+  "formatVersion": 2,
+  "type": "theme",
+  "name": "風之谷 · Wind Valley",
+  "themes": [
+    "themes/light.json",
+    "themes/dark.json"
+  ],
+  "resources": [
+    { "id": "serif", "kind": "font", "path": "assets/serif-lora.ttf" },
+    { "id": "mono", "kind": "font", "path": "assets/mono-jetbrains.ttf" },
+    { "id": "bg-light", "kind": "image", "path": "assets/wallpaper-light.png" },
+    { "id": "bg-dark", "kind": "image", "path": "assets/wallpaper-dark.png" }
+  ]
+}
