@@ -56,6 +56,18 @@ Cindy 的规则是「显式设置优先」：
   「恢复默认」，它才会跟随主题。
 - 「跟随系统」深浅时，亮/暗两个变体会自动切换。
 
+## 自己微调
+
+改颜色、换墙纸/字体、调排版、打包、发版都有一步步说明：**[docs/editing.md](docs/editing.md)**。
+
+```bash
+python3 tools/build.py          # 校验 + 打包成 dist/wind-valley.cindy
+python3 tools/build.py --check  # 只校验（含 token 格式检查）
+```
+
+`tools/build.py` 只需要 Python 3，不需要 Cindy 源码；`tools/token-formats.json` 记录了每个颜色
+token 是「HSL 分量」还是「完整颜色」，写错格式会直接给出警告。
+
 ## 仓库结构
 
 ```
@@ -66,6 +78,9 @@ assets/                    图标、字标、两张墙纸、两款字体
 preview/                   预览截图
 licenses/                  字体许可（OFL 1.1）
 install.ps1 / install.sh   下载最新发布并交给 Cindy 导入
+tools/build.py             自包含打包 + 校验（只需 Python 3）
+tools/token-formats.json   每个颜色 token 的格式要求
+docs/editing.md            微调与发布指南
 wind-valley.cindy          可直接分发的成品包
 ```
 
